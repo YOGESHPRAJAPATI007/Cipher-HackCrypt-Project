@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepfake Shield | Media Authenticity Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="logo">
+        <span class="logo-mark">⧉</span>
+        <span class="logo-text">Deepfake<span>Shield</span></span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link active">Detector</a>
+        <a href="awareness.html" class="nav-link">Awareness</a>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Check media authenticity with clarity, not fear.</h1>
+          <p>Upload an image or video to receive a transparent, explainable deepfake analysis with a confidence score.</p>
+        </div>
+      </section>
+
+      <section class="analyzer">
+        <div class="upload-panel">
+          <div class="upload-header">
+            <h2>Upload media</h2>
+            <p>Supported formats: JPG, PNG, MP4</p>
+          </div>
+
+          <div id="drop-zone" class="drop-zone">
+            <div class="drop-inner">
+              <div class="drop-icon">⬒</div>
+              <div class="drop-text">
+                <div>Drag and drop a file here</div>
+                <div class="drop-sub">or</div>
+                <button id="browse-button" type="button" class="primary-button">Browse files</button>
+              </div>
+            </div>
+            <input id="file-input" class="file-input" type="file" accept=".jpg,.jpeg,.png,.mp4">
+          </div>
+
+          <div class="file-meta" id="file-meta">
+            <span id="file-name">No file selected</span>
+            <span id="file-size"></span>
+          </div>
+
+          <button id="analyze-button" class="primary-button primary-button-full" disabled>Analyze media</button>
+
+          <div class="helper-text">
+            This tool highlights signals only and does not guarantee authenticity or inauthenticity.
+          </div>
+        </div>
+
+        <div class="results-panel" id="results-panel">
+          <div class="results-header">
+            <h2>Analysis results</h2>
+            <p>Results use non-absolute language and are intended for guidance.</p>
+          </div>
+          <div id="results-content" class="results-content">
+            <div class="result-placeholder">
+              Upload a file and select Analyze to see indicators and confidence.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <span class="footer-brand">DeepfakeShield</span>
+        <span class="footer-pill">Media authenticity lab</span>
+      </div>
+      <div class="footer-right">
+        <a href="awareness.html" class="footer-link">Learn about deepfakes</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
