@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepfake Awareness | Deepfake Shield</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="logo">
+        <span class="logo-mark">⧉</span>
+        <span class="logo-text">Deepfake<span>Shield</span></span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Detector</a>
+        <a href="awareness.html" class="nav-link active">Awareness</a>
+      </nav>
+    </header>
+
+    <main class="main-content awareness-main">
+      <section class="hero hero-compact">
+        <div class="hero-text">
+          <h1>Understand deepfakes before they shape your reality.</h1>
+          <p>Learn how synthetic media works, why it matters, and how to protect yourself day to day.</p>
+        </div>
+      </section>
+
+      <section class="awareness-grid">
+        <article class="info-card">
+          <h2>What are deepfakes?</h2>
+          <p>Deepfakes are media files, often videos or images, generated or heavily modified using machine learning models. They can make a person appear to say or do things they never actually said or did.</p>
+          <p>Modern systems can mimic voices, facial expressions, and even subtle movements, making synthetic content feel surprisingly natural at first glance.</p>
+        </article>
+
+        <article class="info-card">
+          <h2>Why are they dangerous?</h2>
+          <ul class="info-list">
+            <li>They can spread misinformation and influence opinions during sensitive moments such as elections or crises.</li>
+            <li>They can be used for harassment, identity abuse, or reputational harm by placing people in fabricated scenarios.</li>
+            <li>They can erode trust in real recordings, making it harder to believe genuine evidence.</li>
+            <li>They can overload people with confusing content, leading to fatigue and disengagement.</li>
+          </ul>
+        </article>
+
+        <article class="info-card">
+          <h2>How to stay safe</h2>
+          <ul class="info-list">
+            <li>Pause before sharing. Ask where the media came from and who benefits if it spreads.</li>
+            <li>Look for visual inconsistencies such as unnatural lighting, warped backgrounds, or flickering details.</li>
+            <li>Listen for audio glitches, robotic intonation, or mismatched lip movements in videos.</li>
+            <li>Cross-check with trusted sources or official accounts before accepting dramatic claims.</li>
+            <li>Use tools like Deepfake Shield as one data point, not the only decision maker.</li>
+          </ul>
+        </article>
+
+        <article class="info-card">
+          <h2>Healthy skepticism, not panic</h2>
+          <p>Deepfakes are part of a broader wave of generative media. Developing healthy skepticism, media literacy, and slow sharing habits can go a long way.</p>
+          <p>Technology can assist by surfacing patterns and anomalies, but human judgment, context, and empathy remain essential in deciding what to trust and how to respond.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <span class="footer-brand">DeepfakeShield</span>
+        <span class="footer-pill">Stay curious, stay critical</span>
+      </div>
+      <div class="footer-right">
+        <a href="index.html" class="footer-link">Back to detector</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
